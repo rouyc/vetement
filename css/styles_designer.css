@@ -1,0 +1,62 @@
+.def { 
+	text-align : center;
+	margin : 0 200px;
+}
+
+#designer{
+	height : 336px;
+	width : 500px;
+}
+
+#outil_designer{
+	height : 300px;
+	width : 300px;
+}
+
+.texte{
+	flex-direction : row;
+	display : flex;
+	text-align:justify;
+}
+
+
+body{
+	text-align: center;
+}
+
+article{
+    width:30%;
+	margin-left:24%;
+}
+
+aside{
+    width:30%;
+    margin-left:2%;
+	text-align:justify;
+}
+
+@media (max-width: 480px) {
+	
+	#outil_designer{
+		display: none;
+	}
+	
+	.texte{
+		flex-direction:column;
+		disply:block;
+	}
+	
+	#designer{
+		height:187px;
+		width:277px;
+	}
+	
+	article{
+		width:90%;
+		margin-left:2%;
+	}
+	
+	aside{
+		width:90%;
+	}
+}

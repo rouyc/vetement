@@ -1,0 +1,21 @@
+.reponse {
+	display:none;
+	color : black;
+	Font-Weight: Bold;
+}
+
+main{
+	margin-left: 15px;
+}
+.question{
+	display:block;
+	color : grey;
+}
+
+.question:hover>.reponse{
+	display:block;
+}
+
+h2{
+	text-align:center;
+}

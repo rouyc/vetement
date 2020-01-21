@@ -1,0 +1,16 @@
+.contact {
+	display:flex;
+	justify-content:space-around;
+}
+
+.contact>article{
+	border-right:5px black;
+}
+
+@media (max-width:480px){
+	main{
+		flex-direction : column;
+		margin-left : 2%;
+		margin-top: 30px;
+	}
+}

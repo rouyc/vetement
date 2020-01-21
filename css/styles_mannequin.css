@@ -1,0 +1,70 @@
+.def { 
+	text-align : center;
+	margin : 0 200px;
+
+}
+
+article{
+    width:30%;
+	margin-left : 24%;
+}
+
+aside{
+    width:30%;
+    margin-left: 2%;
+	text-align : justify;
+ 
+}
+
+#nom_metier { 
+	text-align : center;
+	
+}
+
+.images{
+	height : 85%;
+	width : 30%;
+	margin : 50px;
+}
+
+#inscription {
+	text-align: center;
+	
+}
+
+.condition {
+    display:flex;
+    flex-direction:row;
+}
+
+form {
+	display:flex;
+	flex-direction:row;
+	align-items : center;
+	padding-left: 50px;
+}
+
+@media (max-width:480px){
+	.condition{
+		flex-direction:column;
+	}
+	.images {
+		display:none;
+	}
+	main{
+		margin-top:30px;
+	}
+	.def {
+		display:none;
+	}
+	article{
+		width:90%;
+		margin-left:2%;
+	}
+	aside{
+		width:90%;
+	}
+	form {
+		text-align:justify;
+	}
+}

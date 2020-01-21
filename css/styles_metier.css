@@ -1,0 +1,37 @@
+main {
+	text-align : center;
+	display:flex;
+	flex-direction:column;
+}
+
+.image{
+	height:267px;
+	width:400px;
+}
+
+.metier{
+	display:flex;
+    flex-direction:row;	
+	margin-left:15%;
+}
+
+#influenceur{
+	margin-left:15%;
+}
+
+@media (max-width: 480px) {
+	.metier{
+		display: block;
+		flex-direction: column;
+		margin-left: 0%;
+	}
+	
+	#influenceur{
+		margin-left:0%;
+	}
+	
+	.image{
+		height:180px;
+		width:300px;
+	}
+}

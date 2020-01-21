@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8>
+		<meta name="viewport" content="width=device-width"/>
+		<link rel="stylesheet" type="text/css" href="css/styles_mep.css">
+		<link rel="stylesheet" type="text/css" href="css/styles_menus.css">
+		<link rel="stylesheet" type="text/css" href="css/styles_mannequin.css">
+		<title> OGGO | Nous rejoindre</title>
+	</head>
+
+	<body>
+		<header> 
+			<div class="burger">
+				<img id="imageburger" src="images/burger.png" alt="burger">
+				<div id="menuburger">
+					<div> <a href="./index.html"> Accueil </a> </div>
+					<div> <a href="./equipe.html"> Equipe </a> </div>
+					<div> <a href="./presse.html"> Presse </a> </div>
+					<div> <a href="./metier.html"> Metier </a> </div>
+					<div> <a href="./contact.html"> Contact </a> </div>
+					<div> <a href="./faq.html"> F.A.Q </a> </div>
+				</div>
+			</div>
+			<img src="./images/logo.png" alt="Logo" class= "logo">
+			<nav > 
+				<div> <a class="menu" href="./index.html"> Accueil </a> </div>
+				<div> <a class="menu" href="./equipe.html"> Equipe </a> </div>
+				<div> <a class="menu" href="./presse.html"> Presse </a> </div>
+				<div> <a class="menu" href="./metier.html"> Metier </a>
+					<div class="sousmenu">
+					<div> <a class="menu" href="./metier_designer.html"> Designer </a> </div>
+					<div> <a class="menu" href="./metier_influenceur.html"> Influenceur </a> </div>
+					<div> <a class="menu" href="./metier_mannequin.html"> Mannequin </a> </div>				
+					</div>
+				</div>
+				<div> <a class="menu" href="./contact.html"> Contact </a> </div>
+				<div> <a class="menu" href="./faq.html"> F.A.Q </a> </div>
+			</nav>
+		</header>
+		
+		<main> 
+			<h2 id = "nom_metier"> Mannequin </h2>
+			<p class = "def">  Le métier de mannequin consiste à poser ou défiler pour mettre en avant les produits d'une marque. Ceux ci sont chargés 
+			de promouvoir les produits des marques de vêtements ou les accessoires de mode. </p>  
+			
+			<p class = "def">Nous vous proposons de candidater pour poser pour notre marque. 
+			Pour cela, remplissez le formulaire ci dessous et envoyez nous quelques photos de vous.
+			Cependant, certains pré requis sont nécessaire à la pratique de ce métier : </p>
+			<div class="condition">
+				<article>
+					<ul> 
+						<li> <h3>Pour les hommes : </h3> </li>
+						<li>Une taille de 1,82m à 1,90m</li>
+						<li>95 à 103 cm de tour de poitrine</li>
+						<li>75 à 82 cm de tour de taille</li>
+						<li>98 à 100 cm de tour de hanches</li>
+						<li> âge de 16 à 30 ans </li>
+					</ul>
+				</article>
+				
+				<aside>
+				<ul> 
+					<li> <h3> Pour les femmes : </h3> </li>
+					<li>Une taille de 1,76m à 1,82m</li>
+					<li> 80 à 90 cm de tour de poitrine</li>
+					<li> 55 à 65 cm de tour de taille</li>
+					<li> 80 à 90 cm de tour de hanches</li>
+					<li> âge de 16 à 24 ans </li>
+				</ul>
+						
+				</aside>
+			</div>
+			
+			<div id = "inscription">
+				<h2>Inscription </h2>
+					
+				<form id="myform" class="cssform" action="mailto:candidature_mannequin@gmail.com" method="post" name="contact" >
+					<img class="images" src="images/mannequin.jpg" alt="mannequin">
+						
+					<div>
+						<p>	<label> Nom :</label>
+							<input name="nom" type="text" value="" placeholder="Nom" />
+						</p>
+						
+						<p>	<label> Prénom :</label>
+							<input name="prenom" type="text"  value="" placeholder="Prénom" />
+						</p>
+							
+						<p>
+							<label> Sexe :</label>
+							<input name="homme" type="radio"> Homme
+							<input name="femme" type="radio"> Femme
+						</p>
+							
+						<p> <label>Taille :</label>
+							<input name="taille" type="number"  min="176" max="190" placeholder = "176-190"> cm 
+						</p>
+							
+						<p> <label>Tour de poitrine :</label>
+							<input name="tourdepoitrine" type="number" min="80" max="103" placeholder = "80 - 103"> cm 
+						</p>
+							
+						<p> <label> Tour de taille :</label>
+							<input name="tour de taille" type="number" min="55" max="82" placeholder = "55 - 83"> cm 
+						</p>
+						
+						<p> <label> Tour de hanche :</label>
+							<input name="tour de hanche" type="number" min="80" max="100" placeholder = "80 - 100"> cm 
+						</p>
+							
+						<p> <label> Age :</label>
+							<input name="age" type="number" min="16" max="30" placeholder = "16 - 30"> ans 
+						</p>
+						
+						<p> <label> E-Mail :</label>
+							<input name ="email" type="text" value="" placeholder="E-Mail" />
+						</p>
+						
+						<p>	<label> Code Postal :</label>
+							<input name="cp" type="text" value="" placeholder="Code Postal" />
+						</p>
+						
+						<p>	<label> Pays : </label>
+							<select name="pays">
+								<option>Sélectionner</option>
+								<option>France</option>
+								<option>Espagne</option>
+								<option>Angleterre</option>
+								<option>Italie</option>
+								<option>Portugal</option>
+								<option>Suisse</option>
+								<option>Autre</option>
+							</select>
+						</p>
+							
+						<p> <input type="submit" value="Envoyer" />
+							<input type="reset" value="Reset" /> </p>
+					</div>
+					
+					<img class="images" src="images/mannequin_femme.jpg" alt="mannequin femme">
+				</form>
+			</div>
+		</main>
+		
+		<footer>
+			<div>
+                <a href="https://www.facebook.com/" target="_blank"> <img class="iconf" src="images/iconf.png"> </a>
+				<a href="https://www.twitter.com/" target="_blank"> <img class="icont" src="images/icont.png"> </a>
+				<a href="https://www.instagram.com/" target="_blank"> <img class="iconi" src="images/iconi.png"> </a>
+			</div>
+		</footer>
+	</body>
+</html>

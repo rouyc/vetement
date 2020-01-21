@@ -1,0 +1,44 @@
+.photo1 {
+	float: left;
+	margin-left: 20px;
+	width:260px;
+}
+
+.photo2 {
+	float: right;
+	margin-right: 20px;
+	width: 70%;
+	width:260px;
+}
+
+.texte {
+	font-size: 100%;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+@media (max-width:480px){
+	.texte{
+		display:none;
+	}
+	.photo1{
+		width:200px;
+		margin-right: 10px;
+	}
+	.photo2{
+		width:200px;
+	}
+	
+	main{
+		margin-top:30px;
+	}
+	
+	
+}
